@@ -30,6 +30,12 @@
 #nav-list a span {
   font-size: 1.8em;
 }
+
+#navbarsMenu li {
+  border: 1px solid white;
+}
+
+
 /*End Header*/
 
 
@@ -65,6 +71,9 @@
   #navbarsMenu a {
   	display: none;
   }
+  #navbarsMenu li {
+  border: none;
+}
   /* End Home Page */
 }
 
@@ -87,5 +96,7 @@
   #navbarsMenu a {
   	display: none;
   }
+   #navbarsMenu li {
+  border: none;
   /* End Home Page */
 }
