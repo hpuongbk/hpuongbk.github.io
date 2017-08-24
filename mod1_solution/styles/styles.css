@@ -1,0 +1,15 @@
+.message-error {
+  color: red;
+}
+
+.message-success{
+  color: green;
+}
+
+.input-message-success {
+  border-color: green;
+}
+
+.input-message-error {
+  border-color: red;
+}
