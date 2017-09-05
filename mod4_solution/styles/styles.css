@@ -1,0 +1,28 @@
+h1, h2, h3{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.container>h3{
+  clear: both;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container  > .row{
+  border: 1px solid;
+}
+
+ul li {
+  font-size: 1.1em;
+}
+
+ol li {
+  padding-left: 20px;
+  font-size: 1.2 em;
+  margin: 15px;
+}
+
+ul li {
+  margin: 10px;
+}
