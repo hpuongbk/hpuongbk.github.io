@@ -1,0 +1,62 @@
+{
+  "collection":{
+    "description": "Chuyến đi 3 ngày tại khách sạn gần biển Long Hải. Ngày đầu mưa, ngày thứ 2 đẹp. Ngày thứ 3 cũng đẹp mà gió mạnh thổi muốn bay",
+    "name": "Bãi biển Long Hải"
+  },
+  "details":{
+              "1":{
+                  "url": "images/collections/longhai/IMG20170901134614.jpg"
+              },
+              "2":{
+                  "url": "images/collections/longhai/IMG20170901134615.jpg"
+              },
+              "3":{
+                  "url": "images/collections/longhai/IMG20170901134633.jpg"
+              },
+              "4":{
+                  "url": "images/collections/longhai/IMG20170901134635.jpg"
+              },
+              "5":{
+                  "url": "images/collections/longhai/IMG20170901134640.jpg"
+              },
+              "6":{
+                  "url": "images/collections/longhai/IMG20170902081300.jpg"
+              },
+              "7":{
+                  "url": "images/collections/longhai/IMG20170902081303.jpg"
+              },
+              "8":{
+                  "url": "images/collections/longhai/IMG20170902081304.jpg"
+              },
+              "9":{
+                  "url": "images/collections/longhai/IMG20170902081452.jpg"
+              },
+              "10":{
+                  "url": "images/collections/longhai/IMG20170902081454.jpg"
+              },
+              "11":{
+                  "url": "images/collections/longhai/IMG20170902081457.jpg"
+              },
+              "12":{
+                  "url": "images/collections/longhai/IMG20170902081459.jpg"
+              },
+              "13":{
+                  "url": "images/collections/longhai/IMG20170902081505.jpg"
+              },
+              "14":{
+                  "url": "images/collections/longhai/IMG20170902083016.jpg"
+              },
+              "15":{
+                  "url": "images/collections/longhai/IMG20170902083132.jpg"
+              },
+              "16":{
+                  "url": "images/collections/longhai/IMG20170902083208.jpg"
+              },
+              "17":{
+                  "url": "images/collections/longhai/IMG20170902083227.jpg"
+              },
+              "18":{
+                  "url": "images/collections/longhai/IMG20170902083254.jpg"
+              }
+            }
+}

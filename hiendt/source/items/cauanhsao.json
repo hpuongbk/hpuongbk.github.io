@@ -1,0 +1,64 @@
+{
+
+  "collection":{
+    "description": "Lạc đường lần 1- May mắn lần 2 thì tới được",
+    "name": "Cầu Ánh Sao"
+  },
+  "details":{
+            "1":{
+                "url": "images/collections/cauanhsao/IMG20170729195356.jpg"
+            },
+            "2":{
+                "url": "images/collections/cauanhsao/IMG20170729194331.jpg"
+            },
+            "3":{
+                "url": "images/collections/cauanhsao/IMG20170729194400.jpg"
+            },
+            "4":{
+                "url": "images/collections/cauanhsao/IMG20170729194404.jpg"
+            },
+            "5":{
+                "url": "images/collections/cauanhsao/IMG20170729194412.jpg"
+            },
+            "6":{
+                "url": "images/collections/cauanhsao/IMG20170729194414.jpg"
+            },
+            "7":{
+                "url": "images/collections/cauanhsao/IMG20170729194419.jpg"
+            },
+            "8":{
+                "url": "images/collections/cauanhsao/IMG20170729194424.jpg"
+            },
+            "9":{
+                "url": "images/collections/cauanhsao/IMG20170729194540.jpg"
+            },
+            "10":{
+                "url": "images/collections/cauanhsao/IMG20170729194718.jpg"
+            },
+            "11":{
+                "url": "images/collections/cauanhsao/IMG20170729194721.jpg"
+            },
+            "12":{
+                "url": "images/collections/cauanhsao/IMG20170729194724.jpg"
+            },
+            "13":{
+                "url": "images/collections/cauanhsao/IMG20170729194735.jpg"
+            },
+            "14":{
+                "url": "images/collections/cauanhsao/IMG20170729194741.jpg"
+            },
+            "15":{
+                "url": "images/collections/cauanhsao/IMG20170729194752.jpg"
+            },
+            "16":{
+                "url": "images/collections/cauanhsao/IMG20170729194847.jpg"
+            },
+            "17":{
+                "url": "images/collections/cauanhsao/IMG20170729194859.jpg"
+            },
+            "18":{
+                "url": "images/collections/cauanhsao/IMG20170729194903.jpg"
+            }
+          }
+
+}
