@@ -1,0 +1,15 @@
+<div class="container">
+  <legend>User's Information Details</legend>
+
+  <div id="myInfoDetails" ng-if="myInfo.completed">
+      First name: {{ myInfo.Info.firstname}} <br>
+      Last name: {{ myInfo.Info.lastname}} <br>
+      Email: {{ myInfo.Info.email}} <br>
+      Phone: {{ myInfo.Info.phone }} <br>
+
+      <view-my-info items="myInfo.items"></view-my-info>
+  </div>
+  <div ng-if="myInfo.completed==false">
+      Not Signed Up Yet. <a id="myInfo" ui-sref="admin.SignUp">Sign up Now!</a>
+  </div>
+</div>

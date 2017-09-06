@@ -1,0 +1,19 @@
+<div class="menu-item-title col-md-6 col-lg-6 col-xs-6 col-sm-6">
+  Your favorite menu item:
+  <div ng-if="$ctrl.valid()" class="row">
+    <div class="col-sm-5">
+      <div class="menu-item-photo">
+        <img class="img-responsive" width="250" height="150"
+        ng-src="{{$ctrl.basePath}}/images/{{$ctrl.items.short_name}}.jpg" alt="{{$ctrl.items.name}}">
+      </div>
+    </div>
+    <div class="col-sm-7 menu-desciption">
+      <h4>{{$ctrl.items.name}}</h4>
+      <p>{{$ctrl.items.description}}</p>
+    </div>
+  </div>
+  <hr class="visible-xs">
+  <span style="font-size: 0.7em;color: yellow" ng-if="$ctrl.valid()===false">
+    No such menu number exists.
+  </span>
+</div>

@@ -1,0 +1,83 @@
+<div class="container">
+
+    <fieldset>
+      <legend>Sign Up</legend>
+      <form name='regForm' novalidate>
+
+        <input type="text" name="firstname" placeholder="Your first name"
+          ng-model="reg.user.firstname"
+          required>
+        <span
+          ng-if="(regForm.firstname.$invalid) && regForm.firstname.$touched">
+          Firstname must not be left empty
+        </span>
+          <br>
+
+          <input type="text" name="lastname" placeholder="Your last name"
+            ng-model="reg.user.lastname"
+            required>
+          <span
+            ng-if="(regForm.lastname.$invalid) && regForm.lastname.$touched">
+            Lastname must not be left empty
+          </span>
+            <br>
+
+        <input type="email" name="email" placeholder="Email"
+          ng-model="reg.user.email"
+          required>
+          <span ng-if="regForm.email.$invalid && regForm.email.$touched">
+            Example valid email address: abc@domain
+          </span>
+          <br>
+
+        <input type="text" name="phone" placeholder="Phone ###-###-####"
+          ng-model="reg.user.phone"
+          pattern="(\d{3})-(\d{3})-(\d{4})">
+          <span ng-if="regForm.phone.$invalid && regForm.phone.$touched">
+            Phone must be in the format ###-###-####.
+          </span>
+          <br>
+
+          <input id="myvalid" type="text" name="menu_number" placeholder="Your favorite dish"
+            ng-model="reg.user.menu_number"
+            required
+            ui-validate="'reg.check($value)'">
+            <!-- <img src="images/spinner.svg"> -->
+            <span
+            ng-if="reg.checkEmpty
+            && regForm.menu_number.$touched">
+              This field must not be left empty.
+            </span>
+
+            <span
+            ng-if="reg.checkEmpty ===false
+            && regForm.menu_number.$touched
+            && reg.checkFavorite===false">
+              No such menu number exists.
+            </span>
+
+            <span
+            ng-if="reg.checkEmpty===false
+            && regForm.menu_number.$touched
+            && reg.checkFavorite">
+              Items found.
+              <img class="img-responsive" width="250" height="150"
+              ng-src="{{reg.basePath}}/images/{{reg.user.menu_number}}.jpg" alt="{{$ctrl.items.name}}">
+
+            </span>
+            <br>
+
+        <button
+          ng-disabled="regForm.$invalid"
+          ng-click="reg.submit()">Submit</button>
+
+      </form>
+    </fieldset>
+
+    <div id="info" ng-if="reg.completed">
+      Your information has been saved
+      <br>
+      <a ui-sref="admin.myInfo" style="color:yellow">View your saved information</a>
+    </div>
+
+</div>

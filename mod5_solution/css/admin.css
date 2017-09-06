@@ -1,0 +1,56 @@
+legend {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+fieldset>form>input{
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  width: 50%
+}
+
+fieldset>form>span {
+
+}
+
+fieldset>form>button {
+  font-size: 24px;
+  color: black;
+}
+
+.ng-touched.ng-valid {
+  border: 2px green solid;
+}
+
+.ng-touched.ng-invalid {
+  border: 2px red solid;
+}
+
+.menu-item-view>div{
+  margin:20px;
+}
+
+.menu-desciption{
+  font-size: 0.7em;
+}
+
+#myInfo {
+  color: yellow;
+}
+
+#myInfoDetails{
+  font-size: 18px;
+}
+
+#myInfoDetails>br{
+  font-size: 18px;
+  line-height:40px;
+}
+
+.menu-item-title , .row{
+  margin-top: 15px;
+  padding: 0px;
+}
