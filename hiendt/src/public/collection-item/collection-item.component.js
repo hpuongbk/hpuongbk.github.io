@@ -24,7 +24,7 @@ function CollectionItemController() {
 
       //load image at the first place
       var img = new Image();
-      img.src = $ctrl.items[key].url;
+      img.url = $ctrl.items[key].url;
       $(img).load(function() {
         // success
       });
