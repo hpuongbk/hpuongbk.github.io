@@ -14,15 +14,18 @@ angular.module('public')
 function CollectionItemController() {
   var $ctrl = this;
 
+  var number = 0;
+
   var images = [];
   for (var key in $ctrl.items) {
     if ($ctrl.items.hasOwnProperty(key)) {
       images.push($ctrl.items[key].url)
+      number++;
     }
   }
 
   $('#gallery6').imagesGrid({
-        images: images.slice(0, 18)
+        images: images.slice(0, number)
     });
 
   }
