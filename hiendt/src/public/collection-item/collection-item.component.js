@@ -21,12 +21,21 @@ function CollectionItemController() {
     if ($ctrl.items.hasOwnProperty(key)) {
       images.push($ctrl.items[key].url)
       number++;
+
+      //load image at the first place
+      var img = new Image();
+      img.src = $ctrl.items[key].url;
+      $(img).load(function() {
+        // success
+      });
     }
   }
 
-  $('#gallery6').imagesGrid({
+  $('#gallery').imagesGrid({
         images: images.slice(0, number)
     });
+
+
 
   }
 
