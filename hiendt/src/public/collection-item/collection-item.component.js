@@ -14,6 +14,17 @@ angular.module('public')
 function CollectionItemController() {
   var $ctrl = this;
 
-}
+  var images = [];
+  for (var key in $ctrl.items) {
+    if ($ctrl.items.hasOwnProperty(key)) {
+      images.push($ctrl.items[key].url)
+    }
+  }
+
+  $('#gallery6').imagesGrid({
+        images: images.slice(0, 18)
+    });
+
+  }
 
 })();
