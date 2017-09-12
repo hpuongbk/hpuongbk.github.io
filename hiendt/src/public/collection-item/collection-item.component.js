@@ -10,8 +10,8 @@ angular.module('public')
   controller: CollectionItemController
 });
 
-
-function CollectionItemController() {
+CollectionItemController.$inject =['preloader'];
+function CollectionItemController(preloader) {
   var $ctrl = this;
 
   var number = 0;
@@ -22,20 +22,21 @@ function CollectionItemController() {
       images.push($ctrl.items[key].url)
       number++;
 
-      //load image at the first place
-      var img = new Image();
-      img.url = $ctrl.items[key].url;
-      $(img).load(function() {
-        // success
-      });
+      // //load image at the first place
+      // var img = new Image();
+      // img.url = $ctrl.items[key].url;
+      // $(img).load(function() {
+      //   // success
+      // });
     }
   }
 
-  $('#gallery').imagesGrid({
-        images: images.slice(0, number)
-    });
-
-
+  preloader.preloadImages(images).
+  then(function () {
+    $('#gallery').imagesGrid({
+          images: images.slice(0, number)
+      });
+  });
 
   }
 
