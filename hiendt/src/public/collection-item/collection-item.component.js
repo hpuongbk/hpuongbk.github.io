@@ -10,8 +10,8 @@ angular.module('public')
   controller: CollectionItemController
 });
 
-CollectionItemController.$inject =['preloader'];
-function CollectionItemController(preloader) {
+CollectionItemController.$inject =['preloader','$rootScope'];
+function CollectionItemController(preloader,$rootScope) {
   var $ctrl = this;
 
   var number = 0;
@@ -33,9 +33,13 @@ function CollectionItemController(preloader) {
 
   preloader.preloadImages(images).
   then(function () {
+    $rootScope.$broadcast('spinner:re_activate', {on: true});
     $('#gallery').imagesGrid({
           images: images.slice(0, number)
       });
+  })
+  .finally(function () {
+    $rootScope.$broadcast('spinner:re_activate', {on: false});
   });
 
   }
