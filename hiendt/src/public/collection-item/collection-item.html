@@ -1,17 +1,10 @@
-<!-- <div class="menu-item-tile col-md-6">
-  <div class="row">
-    <div class="col-sm-5">
-      <div class="menu-item-photo">
-        <div>{{$ctrl.menuItem.short_name}}</div>
-        <img class="img-responsive" width="250" height="150"
-        ng-src="{{$ctrl.items.url}}" alt="{{$ctrl.items.name}}">
-      </div>
-    </div>
-    <div class="menu-item-description col-sm-7">
+<!-- gallery is the group of 25 pictures -->
 
-    </div>
-  </div>
-  <hr class="visible-xs">
-</div> -->
+<div class="container">
+  <h2 id="menu-categories-title" class="text-center">
+    {{ $ctrl.items.description}}
+  </h2>
 
-<div id="gallery"></div>
+  <subcollection-item-detail items="$ctrl.items.items">
+  </subcollection-item-detail>
+</div>

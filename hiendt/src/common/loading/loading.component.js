@@ -17,12 +17,10 @@ function LoadingController ($rootScope) {
   $ctrl.$onInit = function() {
     $ctrl.show = false;
     listener = $rootScope.$on('spinner:activate', onSpinnerActivate);
-    re_listener = $rootScope.$on('spinner:re_activate', onSpinnerActivate);
   };
 
   $ctrl.$onDestroy = function() {
     listener();
-    re_listener();
   };
 
   function onSpinnerActivate(event, data) {

@@ -41,6 +41,17 @@ function routeConfig ($stateProvider) {
           return CollectionService.getItems($stateParams.collectionId);
         }]
       }
+    })
+    .state('public.subcollectionItemDetail',{
+      url:'/collections/{subCollectionId}',
+      templateUrl: 'src/public/collection-item/collection-item.html',
+      controller: 'subcollectionItemDetailController as $ctrl',
+      resolve:{
+        subcollectionItemsDetail: ['$stateParams','CollectionService', function ($stateParams,CollectionService) {
+          return CollectionService.getItemsDetail($stateParams.subCollectionId);
+            //return CollectionService.getItems("longhai");
+        }]
+      }
     });
 }
 })();

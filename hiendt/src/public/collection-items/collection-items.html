@@ -6,9 +6,15 @@
     {{ collectionItemsCtrl.Items.collection.description}}
   </div>
 
-  <collection-item
-             items="collectionItemsCtrl.Items.details">
-  </collection-item>
-
+  <div ng-repeat="items in collectionItemsCtrl.Items.details">
+    <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+      <a ui-sref="public.subcollectionItemDetail({subCollectionId: items.description})">
+        <div class="category-tile">
+          <img width="200" height="200" ng-src="{{items.items['1'].url}}">
+          <span>{{items.description}}</span>
+        </div>
+      </a>
+    </div>
+  </div>
 
 </div>

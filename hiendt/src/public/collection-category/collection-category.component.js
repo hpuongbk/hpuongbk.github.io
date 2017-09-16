@@ -10,21 +10,24 @@ angular.module('public')
   controller: CollectionCategoriesController
 });
 
-  function CollectionCategoriesController() {
+  CollectionCategoriesController.$inject = ['preloader'];
+  function CollectionCategoriesController(preloader) {
     var $ctrl = this;
 
+    var images = [];
     for (var key in $ctrl.items) {
       if ($ctrl.items.hasOwnProperty(key)) {
-
         //load image at the first place
-        var img = new Image();
-        img.url = $ctrl.items[key].url;
-        $(img).load(function() {
-          // ...success
-        });
+        images.push($ctrl.items[key].url);
       }
-
     }
+
+    preloader.preloadImages(images).
+    then(function () {
+    })
+    .finally(function () {
+    });
+
   }
 
 
