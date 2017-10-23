@@ -74,9 +74,9 @@
         }
       }
     },
-    "group2.1":{
+    "group2.1": {
       "description": "group2.1",
-      "items":{
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170902090458-min.jpg"
         },
@@ -109,9 +109,9 @@
         }
       }
     },
-    "group2.2":{
+    "group2.2": {
       "description": "group2.2",
-      "items":{
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170902090551-min.jpg"
         },
@@ -147,9 +147,9 @@
         }
       }
     },
-    "group3.1":{
+    "group3.1": {
       "description": "group3.1",
-      "items":{
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170902091037-min.jpg"
         },
@@ -182,9 +182,9 @@
         }
       }
     },
-    "group3.2":{
+    "group3.2": {
       "description": "group3.2",
-      "items":{
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170902091257-min.jpg"
         },
@@ -219,7 +219,7 @@
     },
     "group4.1": {
       "description": "group4.1",
-      "items":{
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170902091619-min.jpg"
         },
@@ -254,7 +254,7 @@
     },
     "group4.2": {
       "description": "group4.2",
-      "items":{
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170902092438-min.jpg"
         },
@@ -289,7 +289,7 @@
     },
     "group5.1": {
       "description": "group5.1",
-      "items":{
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170902092731-min.jpg"
         },
@@ -324,7 +324,7 @@
     },
     "group5.2": {
       "description": "group5.2",
-      "items":{
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170902094053-min.jpg"
         },
@@ -359,7 +359,7 @@
     },
     "group6.1": {
       "description": "group6.1",
-      "items":{
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170902122046-min.jpg"
         },
@@ -394,7 +394,7 @@
     },
     "group6.2": {
       "description": "group6.2",
-      "items":{
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170902164722-min.jpg"
         },
@@ -427,9 +427,9 @@
         }
       }
     },
-    "group7": {
-      "description": "group7",
-      "items":{
+    "group7.1": {
+      "description": "group7.1",
+      "items": {
         "1": {
           "url": "images/collections/longhai/IMG20170903055521-min.jpg"
         },
@@ -462,6 +462,76 @@
         },
         "131": {
           "url": "images/collections/longhai/IMG20170903055732-min.jpg"
+        }
+      },
+      "group7.2": {
+        "description": "group7.2",
+        "items": {
+          "1": {
+            "url": "images/collections/longhai/IMG20170903055735-min.jpg"
+          },
+          "132": {
+            "url": "images/collections/longhai/IMG20170903055736-min.jpg"
+          },
+          "133": {
+            "url": "images/collections/longhai/IMG20170903055740-min.jpg"
+          },
+          "134": {
+            "url": "images/collections/longhai/IMG20170903055742-min.jpg"
+          },
+          "135": {
+            "url": "images/collections/longhai/IMG20170903055744-min.jpg"
+          },
+          "136": {
+            "url": "images/collections/longhai/IMG20170903055908-min.jpg"
+          },
+          "137": {
+            "url": "images/collections/longhai/IMG20170903055911-min.jpg"
+          },
+          "138": {
+            "url": "images/collections/longhai/IMG20170903055915-min.jpg"
+          },
+          "139": {
+            "url": "images/collections/longhai/IMG20170903060008-min.jpg"
+          },
+          "140": {
+            "url": "images/collections/longhai/IMG20170903060020-min.jpg"
+          }
+        },
+        "group8.1": {
+          "description": "group8.1",
+          "items": {
+            "1": {
+              "url": "images/collections/longhai/IMG20170903055735-min.jpg"
+            },
+            "132": {
+              "url": "images/collections/longhai/IMG20170903055736-min.jpg"
+            },
+            "133": {
+              "url": "images/collections/longhai/IMG20170903055740-min.jpg"
+            },
+            "134": {
+              "url": "images/collections/longhai/IMG20170903055742-min.jpg"
+            },
+            "135": {
+              "url": "images/collections/longhai/IMG20170903055744-min.jpg"
+            },
+            "136": {
+              "url": "images/collections/longhai/IMG20170903055908-min.jpg"
+            },
+            "137": {
+              "url": "images/collections/longhai/IMG20170903055911-min.jpg"
+            },
+            "138": {
+              "url": "images/collections/longhai/IMG20170903055915-min.jpg"
+            },
+            "139": {
+              "url": "images/collections/longhai/IMG20170903060008-min.jpg"
+            },
+            "140": {
+              "url": "images/collections/longhai/IMG20170903060020-min.jpg"
+            }
+          }
         }
       }
     }
